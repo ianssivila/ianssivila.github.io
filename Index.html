@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sivila, CM CV</title>
+	<style>
+		/* Global styles */
+		body {
+			font-family: Verdana, sans-serif;
+			font-size: 12px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+
+		a {
+			color: #0077c0;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		/* Section-specific styles */
+		section {
+			padding: 20px;
+		}
+
+		section:not(:first-child) {
+			border-top: 1px solid #ccc;
+		}
+
+		h2 {
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-bottom: 20px;
+		}
+
+		th,
+		td {
+			border: 1px solid #ccc;
+			padding: 10px;
+			text-align: left;
+		}
+
+		th {
+			font-weight: bold;
+			background-color: #0077c0;
+			color: #fff;
+		}
+
+		tbody tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		tbody tr:hover {
+			background-color: #ccc;
+		}
+
+		nav {
+			background-color: #0077c0;
+			padding: 10px;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		nav li {
+			padding: 10px;
+			text-align: center;
+			flex: 1;
+			margin: 0 10px;
+			border-radius: 10px;
+			background-color: #FFF;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		nav li:hover {
+			background-color: #000000;
+			color: #FFF;
+			cursor: pointer;
+		}
+
+		footer {
+  			position: sticky;
+  			bottom: 0;
+  			right: 0;
+  			background-color: #333;
+  			color: #fff;
+  			padding: 10px;
+  			text-align: center;
+  			width: 100%;
+  			z-index: 9999;
+		}
+
+		footer a {
+			color: #fffb00;
+		}
+
+		@media screen and (max-width: 768px) {
+			nav ul {
+				flex-wrap: wrap;
+			}
+
+			nav li {
+				margin: 30px 0;
+			}
+		}
+		.profile-pic {
+  			border-radius: 50%;
+  			width: 200px;
+  			height: 200px;
+		}
+	</style>
+</head>
+
+<body>
+	<header style="text-align: center;">
+		<img class="profile-pic" src="Pic1.jpg" alt="Christian Michael Laplap Sivila" width="200" height="200">
+		<h1>CHRISTIAN MICHAEL LAPLAP SIVILA</h1>
+	</header>
+	<nav>
+		<ul>
+			<li onclick="location.href='#personal-information'">Personal Information</li>
+			<li onclick="location.href='#educational-background'">Educational Background</li>
+			<li onclick="location.href='#work-experience'">Work Experience</li>
+			<li onclick="location.href='#skills-portfolio-training-hobbies'">Skills, Portfolio, Training and Hobbies</li>
+			<li onclick="location.href='#work-and-character-references'">Work and Character References</li>
+			<li onclick="location.href='#social-media'">Social Media</li>
+		</ul>
+	</nav>
+	<main>
+		<section id="personal-information">
+			<h2>Personal Information</h2>
+			<table>
+				<tr>
+					<th>Name</th>
+					<td>Christian Michael Laplap Sivila</td>
+				</tr>
+				<tr>
+					<th>Birthdate</th>
+					<td>October 27, 1982</td>
+				</tr>
+				<tr>
+					<th>Age</th>
+					<td>40</td>
+				</tr>
+				<tr>
+					<th>Civil Status</th>
+					<td>Married</td>
+				</tr>
+				<tr>
+					<th>Spouse</th>
+					<td>Maria Cecilia Peren Sivila</td>
+				</tr>
+				<tr>
+					<th>Address</th>
+					<td>3250 Block 21 Lot2, NHA Phase 1, Kauswagan, Cagayan de Oro City, Misamis Oriental, 9000</td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td>christianmichaelsivila@live.com | christianmichaelsivila@gmail.com</td>
+				</tr>
+				<tr>
+					<th>Contact Number</th>
+					<td>+63917-773-3136</td>
+				</tr>
+			</table>
+		</section>
+		<section id="educational-background">
+			<h2>Educational Background</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>School Name</th>
+						<th>Degree</th>
+						<th>Year Graduated</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Xavier University (Ateneo de Cagayan)</td>
+						<td>Bachelor of Science in Information Management</td>
+						<td>2004</td>
+					</tr>
+					<tr>
+						<td>Corpus Christi School</td>
+						<td>N/A</td>
+						<td>2000</td>
+					</tr>
+					<tr>
+						<td>Corpus Christi School</td>
+						<td>N/A</td>
+						<td>1996</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section id="work-experience">
+			<h2>Work Experience</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Company Name</th>
+						<th>Address</th>
+						<th>Position</th>
+						<th>Work Description</th>
+						<th>Tenure</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Local Government Unit of Baungon</td>
+						<td>Imbatug, Baungon, Bukidnon, 8707</td>
+						<td>SO - Information Officer</td><td>Acting as PIO / ICT. Provide technical support for hardware. Network and Domain Administration. Graphic Artist.</td>
+						<td>2022-Currrent</td>
+					</tr>
+					<tr>
+						<td>Department of Public Works and Highways</td>
+						<td>Leyte 4th District Engineering Office, Ormoc City, Leyte, 6540</td>
+						<td>Administrative Aide I</td>
+						<td>Technical Support and Hardware Maintenance under the ICT Department.</td>
+						<td>April 2022 - December 2022</td>
+					</tr>
+					<tr>
+						<td>Stream Global Services (NOW CONVERGYS)</td>
+						<td>IT Park, Lahug, Cebu City, Cebu, 6000</td>
+						<td>Technical Support Representative</td>
+						<td>Technical support and hardware support for Microsoft XBOX Gaming console.</td>
+						<td>2012 - 2013</td>
+					</tr>
+					<tr>
+						<td>ETELECARE (NOW CONVERGYS)</td>
+						<td>IT Park, Lahug, Cebu City, Cebu, 6000</td>
+						<td>Customer Support Representative</td>
+						<td>Technical support for Intuit Quickbooks Accounting Software.</td>
+						<td>2010 - 2012</td>
+					</tr>
+					<tr>
+						<td>LINK2SUPPORT (NOW CONVERGYS)</td>
+						<td>Masterson Avenue, Cagayan de Oro City, Misamis Oriental, 9000</td>
+						<td>Senior Product Support Specialist II - Escalation Team</td>
+						<td>Tier 2 technical support for Linksys Home and Small Business Networking products. Linksys is a division of CISCO Systems.</td>
+						<td>2004 - 2009</td>
+					</tr>
+					<tr>
+						<td>Government Service Insurance System (GSIS)</td>
+						<td>Carmen, Cagayan de Oro City, Misamis Oriental, 9000</td>
+						<td>OJT - Apprentice</td>
+						<td>Customer relations and pensioners query section</td>
+						<td>April 2003 - June 2003</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section id="skills-portfolio-training-hobbies">
+			<h2>Skills, Portfolio, Training and Hobbies</h2>
+			<table>
+				<tr>
+					<th>Skills</th>
+					<td>Licensed Driver, Photo Editing with Adobe Photoshop, Video Editing with Adobe Premier, Content Creation streaming with Streamlabs OBS, OBS Studio and NVIDIA Broadcast.</td>
+				</tr>
+				<tr>
+					<th>Portfolio</th>
+					<td><a href="https://www.facebook.com/baungonlgupage">Baungon LGU Page</a></td>
+				</tr>
+				<tr>
+					<th>Training and Certification</th>
+					<td>Civil Service Career - Professional, Data Privacy, Web Accessibility Audit, Web Development for Web Developers</td>
+				</tr>
+				<tr>
+					<th>Hobbies</th>
+					<td>Online Gaming, Basketball, Volleyball, Table Tennis, Dancing</td>
+				</tr>
+			</table>
+		</section>
+		<section id="work-and-character-references">
+			<h2>Work and Character References</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Relationship</th>
+						<th>Contact Number</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Atty. Virgilio O. Garcillano</td>
+						<td>Former Supervisor - Former Commissioner - Commission on Election (COMELEC)</td>
+						<td>+63917-154-5999</td>
+					</tr>
+					<tr>
+						<td>Irwin Antonio</td>
+						<td>Former Superior - DPWH Leyte 4th DEO, Assistance District Engineer</td>
+						<td>+63905-469-6841</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section id="social-media">
+			<h2>Social Media</h2>
+			<ul>
+				<li><a href="https://www.facebook.com/ians.sivila" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+				<li><a href="https://twitter.com/iamkrayzieians" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+				<li><a href="https://www.instagram.com/iamkrayzieians/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+				<li><a href="https://discord.com/invite/3jjf85grdA" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+				<li><a href="https://www.linkedin.com/in/christiansivila/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+			</ul>
+		</section>
+	</main>
+	<br>
+	<footer>
+		<a href="#">Back to Top</a>
+		<p><b> © Christian Michael Sivila 2023</b></p>
+	</footer>
+</body>
+
+</html>
